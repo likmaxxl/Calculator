@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="jqueru.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="calculator">
+
+    <div class="btns">
+      <div class="name">CASIO</div>
+      <form action="" name="ca">
+        <input type="text" class="display" disabled>
+    </div>
+    <div class="rw">
+      <input onclick="ccc()" type="button" class="button c" value="C">
+      <input onclick="numbers(this)" type="button" class="button" value="/">
+      <input onclick="numbers(this)" type="button" class="button puta" value="*">
+      <input onclick="del()" type="button" class="button" value="DEL">
+    </div>
+    <div class="rw">
+      <input onclick="numbers(this)" class="button" value="7" type="button">
+      <input onclick="numbers(this)" class="button" value="8" type="button">
+      <input onclick="numbers(this)" class="button" value="9" type="button">
+      <input onclick="numbers(this)" class="button" value="-" type="button">
+    </div>
+    <div class="rw">
+      <input onclick="numbers(this)" class="button" value="4" type="button">
+      <input onclick="numbers(this)" class="button" value="5" type="button">
+      <input onclick="numbers(this)" class="button" value="6" type="button">
+      <input onclick="numbers(this)" class="button" value="+" type="button">
+    </div>
+    <div class="rw">
+      <input onclick="numbers(this)" class="button" value="1" type="button">
+      <input onclick="numbers(this)" class="button" value="2" type="button">
+      <input onclick="numbers(this)" class="button" value="3" type="button">
+      <input onclick="numbers(this)" class="button" value="." type="button">
+    </div>
+    <div class="rw">
+      <input onclick="numbers(this)" class="button" value="0" type="button">
+      <input onclick="numbers(this)" class="button" value="(" type="button">
+      <input onclick="numbers(this)" class="button" value=")" type="button">
+      <input class="button" value="=" type="button" onclick="pt()">
+    </div>
+    </form>
+  </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

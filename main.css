@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator {
+  margin: 100px auto;
+  font-family: sans-serif;
+  width: 350px;
+  box-shadow: 0 0 3px black;
+  padding: 0 5px 10px 5px;
+  background-image: linear-gradient(#252C2F, #383E44);
+}
+
+.ss {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(116, 162, 196);
+  text-align: center;
+}
+
+.display {
+  padding: 0 4px;
+  color: white;
+  width: 100%;
+  min-height: 150px;
+  background-image: linear-gradient(#222222, #000000);
+  word-wrap: break-word;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: right;
+  font-size: 70px;
+}
+
+.btns {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 10px 13px 10px;
+  background-image: linear-gradient(#252C2F, #383E44);
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.rw {
+  margin: 0 auto;
+  display: flex;
+  color: rgb(250, 250, 250);
+}
+
+.button {
+  cursor: pointer;
+  box-shadow: 1px 0 1px black;
+  width: 25%;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  font-size: 35px;
+  outline: solid 1.4px rgba(50, 50, 50, .9);
+  background-image: linear-gradient(rgb(95, 106, 114), rgb(105, 116, 124))
+}
+
+.rw:first-of-type .button {
+  background-image: linear-gradient(rgb(56, 62, 68), rgb(66, 72, 78)) !important;
+}
+
+.button:last-of-type {
+  background-image: linear-gradient(rgb(56, 62, 68), rgb(46, 52, 58));
+}
